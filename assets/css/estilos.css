@@ -1,23 +1,38 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+h1{ 
+  font-family: "Rubik Puddles", system-ui;
+
+}
+
+
+.bg-dark {
+  background-color: #7a4930 !important;
+}
 
 /* Hero Section */
-
+.display-1 {
+  font-size: 4.5rem; 
+  color: #000;
+  text-shadow: 3px 3px rgb(179, 110, 70);
+}
 #Hero-Section {
   background-image: url("../img/bg-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  
 }
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
+#Ofrecemos .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #863005;
 }
 
 /* Contacto */
@@ -36,4 +51,24 @@ body {
     width: 100px;
   }
 
+}
+
+.btn-outline-info {
+  border-color: #7a4930 !important;
+  color: #000000 !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #863005 !important;
+  color: #fff !important; /* Cambia el color del texto al pasar el mouse */
+}
+
+.btn-info {
+  background-color: #7a4930!important;
+  border-color: #7a4930 !important;
+  color: #fff !important; /* Si quieres que el texto sea blanco */
+}
+
+.fondo-ofrecemos{
+  background-color: #7a4930;
 }
